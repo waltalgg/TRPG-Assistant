@@ -1,0 +1,51 @@
+# Composer
+/vendor/
+composer.lock
+/vendor/autoload.php
+
+# Node
+/node_modules/
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+*.env.backup
+
+# IDE and editor files
+.vscode/
+.idea/
+*.iml
+*.phpstorm.meta.php
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# PHP
+.phpunit.result.cache
+
+# Logs
+*.log
+
+# Laravel / PHP cache and storage (adjust if not using Laravel)
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/bootstrap/cache/*
+
+# Tests / coverage
+/tests/_output/
+/coverage/
+
+# Docker
+.dockerignore
+*.local.php
