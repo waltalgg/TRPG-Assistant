@@ -3,11 +3,12 @@
 
 <template>
   <header>
+    <link href="/src/assets/main.css" rel="stylesheet">
   </header>
 
-  <main>
-    Hello!
-  </main>
+  <h1 class="text-3xl font-bold underline">
+    Hello world!
+  </h1>
 </template>
 
 <style scoped>

@@ -13,6 +13,8 @@
     "format": "prettier --write --experimental-cli src/"
   },
   "dependencies": {
+    "postcss": "^8.5.8",
+    "tailwindcss": "^4.2.2",
     "vue": "^3.5.29"
   },
   "devDependencies": {
