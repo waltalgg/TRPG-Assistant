@@ -1,4 +1,3 @@
-<!-- src/App.vue -->
 <script setup>
 </script>
 
